@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 90px;
+    padding-top: 170px;
+    gap: 100px;
+}
+
+#left{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    /* font-size: 140px; */
+    font-size:9.1vw;
+    font-weight: 500;
+    /* line-height: 110px; */
+    line-height:7.3vw;
+    font-family: 'work sans';
+}
+
+#left-bottom{
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+#color h5{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#color1{
+   width: 30px;
+   height: 30px;
+   background-color: burlywood;
+   border-radius: 50%;
+   margin: 5px;
+}
+
+#color2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+#left h2{
+    margin-top: 50px;
+    /* font-size: 30px; */
+    font-size: 2vw;
+    margin-bottom: 15px;
+}
+
+#left p{
+    /* font-size: 20px; */
+    font-size:1.3vw;
+    width: 65%;
+    font-weight: 600;
+    color: #444;
+    /* line-height: 26px; */
+    line-height: 1.7vw;
+}
+
+#right{
+    width: 33%;
+    height: 90%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top {
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#right-top h4{
+   font-size: 30px;
+   font-weight: 500;
+   font-family: 'work sans';
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+   height: 86.5%;
+   object-fit: cover;
+}
+
+#black-gola {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(3, 3, 7);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    right: -13%;
+    top: 25%;
+}
+
+#black-gola h5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'work sans';
+}
+
+#rotated {
+    position: absolute;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -10%;
+    bottom: 4%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+@media (max-width:600px){
+    #main{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 40px;
+        gap:40px;
+    }
+
+    #left{
+        width: fit-content;
+        height: 50%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    
+
+#left h1{
+    font-size:19.1vw;
+    line-height:16.5vw;
+}
+
+#left-bottom{
+    width: 100%;
+}
+#color{
+    width: fit-content;
+    padding: 3px 5px;
+   
+    
+}
+
+#color h5{
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+#color1{
+   width: 12px;
+   height: 12px;
+}
+
+#color2{
+    width: 12px;
+    height: 12px;
+   
+}
+
+#left h2{
+    margin-top: 20px;  
+    font-size: 3.9vw;
+    margin-bottom: 8px;
+}
+
+#left p{
+    /* font-size: 20px; */
+    font-size:2.7vw;
+    width: 95%;
+    line-height: 3.7vw;
+}
+
+#right{
+    width: 100%;
+    height:  50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#right-top {
+    width: 100%;
+    height: 60px;
+}
+
+#right-top h4{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+#right-top h5{
+    font-size: 12px;
+}
+
+
+
+#right img{
+    width: 100%;
+   height: 86.5%;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+#black-gola {
+    width: 28%;
+    height: 28%;
+    right: -10%;
+    top: -10%;
+}
+
+#black-gola h5{
+    /* font-size: 12px; */
+    font-size: 2.9vw;
+}
+
+#rotated {
+    rotate: 0deg;
+    transform-origin: 0 0;
+    left: 0%;
+    top: -10%;
+    /* font-size: 30px; */
+    font-size: 7.3vw;
+    font-weight: 600;
+}
+}
